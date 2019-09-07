@@ -1,0 +1,67 @@
+body {
+    background-color: #b5a789;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: small;
+    margin: 0px;
+}
+
+#header {
+    background-color: #675c47;
+    text-align: center;
+    margin: 10px 10px 0px 10px;
+    height: 42px;
+}
+
+#login {
+    /*讓一個div塊在整個螢幕居中*/
+    width: 340px;
+    height: 180px;
+    padding: 13px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -200px;
+    background-color: rgba(239, 229, 208, 0.5);
+    border-radius: 10px;
+    text-align: center;
+}
+
+form p>* {
+    /*輸入框及Label對齊置中*/
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.label_title {
+    font-size: 18px;
+    font-family: 標楷體;
+    width: 80px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+    background-color: #b5a789;
+    border-top-left-radius: 5px;
+    /*圓角*/
+    border-bottom-left-radius: 5px;
+}
+
+#Btn_login {
+    font-size: 18px;
+    font-family: 標楷體;
+    width: 110px;
+    height: 32px;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+    background-color: #675c47;
+    border-radius: 6px;
+    border: 0;
+}
+
+#Forget_pwd {
+    margin: 0px 0px 0px 45px;
+    font-size: 110%;
+    font-size: 18px;
+}

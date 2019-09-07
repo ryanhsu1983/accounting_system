@@ -1,0 +1,50 @@
+body {
+    background-color: #b5a789;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: small;
+    margin: 0px;
+}
+
+#header {
+    background-color: #675c47;
+    text-align: center;
+    margin: 10px 10px 0px 10px;
+    height: 42px;
+}
+
+#main {
+    background: #efe5d0;
+    font-size: 110%;
+    text-align: left;
+    border-spacing: 40px;
+    margin: 10px 10px 0px 10px;
+    padding: 20px;
+    /*display: table;*/
+    /*vertical-align: top;*/
+}
+
+#record {
+    border-style: inset;
+    font-size: 100%;
+    height: 300px;
+}
+
+#submitButton {
+    width: 100px;
+    height: 30px;
+    font-size: 110%;
+}
+
+#resetButton {
+    width: 100px;
+    height: 30px;
+    margin: 0px 0px 0px 25px;
+    font-size: 110%;
+}
+
+#countButton {
+    width: 100px;
+    height: 30px;
+    margin: 0px 0px 0px 25px;
+    font-size: 110%;
+}
